@@ -1,0 +1,123 @@
+.border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+
+}
+
+.bookmarks-size {
+    width: 800px;
+    height: 40px;
+}
+
+.bookmarks-size2 {
+    width: 800px;
+    height: 600px;
+}
+
+.content-size {
+    width: 475px;
+    height: 100px;
+}
+
+
+.move-down {
+    position: relative;
+    bottom: 5px;
+    left: 75px;
+}
+
+.move-left {
+    position: relative;
+    left: 24px;
+    bottom: 5px;
+}
+
+.color-red {
+    color: red;
+}
+
+.move-right {
+    position: relative;
+    left: 20px;
+}
+
+.content-text {
+    font-size: 15px;
+}
+
+.icons-text {
+    font-size: 12px;
+}
+
+.width-icons {
+    width: 25%;
+}
+.move-up {
+    position: relative;
+    bottom: 5px;
+    left: 75px;
+}
+
+.rounded-corners-all-around {
+    border-radius: 48px;
+}
+
+.rounded-top {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.rounded-bottom{
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.width-15-pc {
+    width: 78px;
+}
+
+.width-12 {
+    width: 300px
+}
+
+.float-left {
+    float: left;
+}
+
+.padding-fat {
+    padding: 12px;
+}
+
+.bookmarks-text {
+    font-size: 20px;
+    color: white;
+}
+
+.name-size {
+    font-size: 15px;
+}
+
+.color-white {
+    color:white;
+}
+
+.color-gray {
+    color:lightgray;
+}
+.handle-text {
+    font-size: 13px;
+    color: lightgray;
+}
+
+
+.para-width {
+    position: relative;
+    left: 16px;
+    top: -24px;
+}
+.handle-width {
+    position: relative;
+    left: 16px;
+    top: -40px;
+}
