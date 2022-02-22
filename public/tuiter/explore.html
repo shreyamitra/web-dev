@@ -1,26 +1,27 @@
 
 
-<body style = "background-color: black;">
+<body style = "background-color: white;">
 <a href="navigation.html">Back</a>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
 <link href="explore.css" rel="stylesheet"/>
 
 
 
 <div>
 
+<!--<form id="search-form">-->
+<!--    <div class="search" >-->
+<!--        <input type="text" name="search" class="round" placeholder="Search Tuiter"/>-->
+<!--        <div class = "pos-relative-right">-->
+<!--            <a href="explore-settings.html">-->
+<!--                <img  src= "https://img.icons8.com/fluency/344/gear.png"-->
+<!--                      height= "30px" width="30px">-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
 
-<form id="search-form">
-    <div class="search" >
-        <input type="text" name="search" class="round" placeholder="Search Tuiter"/>
-        <div class = "pos-relative-right">
-            <a href="explore-settings.html">
-                <img  src= "https://img.icons8.com/fluency/344/gear.png"
-                      height= "30px" width="30px">
-            </a>
-        </div>
-    </div>
-
-</form>
+<!--</form>-->
 <!--    <div class = "pos-float-right">-->
 <!--        <a href="explore-settings.html">-->
 <!--            <img  src="https://img.icons8.com/fluency-systems-regular/344/gear.png"-->
@@ -30,138 +31,211 @@
 
 </div>
 
-<div class="width-15-pc float-left fg-color-blue fg-font ">
-    <a class = "fg-color-blue padding-fat-16 link-font" href="navigation.html">For you</a>
-    <hr class = "bottom-line">
-</div>
-<div class="width-15-pc float-left fg-font">
-    <a class = "fg-color-gray padding-fat-16 link-font" href="navigation.html">Trending</a>
-</div>
-<div class="width-15-pc float-left fg-font">
-    <a class = "fg-color-gray padding-fat-16 link-font" href="navigation.html">COVID-19</a>
-</div>
-<div class="width-15-pc float-left fg-font">
-    <a class = "fg-color-gray padding-fat-16 link-font" href="navigation.html">News</a>
-</div>
-<div class="width-15-pc float-left fg-font">
-    <a class = "fg-color-gray padding-fat-16 link-font" href="navigation.html">Sports</a>
-</div>
-<div class="width-15-pc float-left fg-font">
-    <a class = "fg-color-gray padding-fat-16 link-font" href="navigation.html">Entertainment</a>
-</div>
-<br>
-<br>
-<hr>
-<br>
-<div class = " border explore-size margin-right-left">
-    <div class = "margin-right-left padded-top-left trending-text margin-right">
-        Trending in Science
-    </div>
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "post-text"> Starship </p>
-
-    </div>
-
-    <div class = "margin-right-left trending-text padded-top-left">
-         <p> 55.5K Tweets </p>
-
-    </div>
-</div>
-
-<div class = " border explore-size margin-right-left">
-    <div class = "margin-right-left padded-top-left trending-text margin-right">
-        Trending in Sports
-    </div>
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "post-text"> LA Rams Win the Superbowl</p>
-
-    </div>
-
-    <div class = "margin-right-left trending-text padded-top-left">
-        <p> 1.5M Tweets </p>
-
-    </div>
-</div>
-
-<div class = " border explore-size margin-right-left">
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "company-text"> The New York Times</p>
-
-    </div>
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "post-text"> Winter Olympics 2022 Highlight</p>
-        <div class = "move-right">
-            <img class = "rounded-corners-all-around"
-                    src="https://news.cgtn.com/news/2022-01-15/Beijing-in-final-preparations-for-the-Winter-Olympics-16PLSjBNNII/img/ca2b2e1392384174a68cb5efe4744043/ca2b2e1392384174a68cb5efe4744043.jpeg"
-                    height= "55px" width="55px"/>
+<h3>
+    <a href="https://getbootstrap.com/docs/5.1/components/list-group/#links-and-buttons">
+    </a>
+</h3>
+<div class="row">
+    <div class=" col-xxl-3">
+        <div class="list-group">
+            <i class="fab fa-twitter fa-2x" style="color: black"></i>
+            <a href="home.html" class="list-group-item list-group-item-action fg-color-black" aria-current="true">
+                Home
+            </a>
+<!--d-inline-->
+<!--            displayinline bootstrap-->
+            <a href="explore.html" class="list-group-item list-group-item-action active">
+                <i class="fab fa-house fa-2x" style="color: black;"></i> Explore</a>
+            <a href="notifications.html" class="list-group-item list-group-item-action">
+                Notifications</a>
+            <a href="media.html" class="list-group-item list-group-item-action fg-color-white bg-color-black">
+                Messages</a>
+            <a href="bookmarks.html" class="list-group-item list-group-item-action fg-color-white bg-color-black">
+                Bookmarks</a>
+            <a href="lists.html" class="list-group-item list-group-item-action fg-color-white bg-color-black">
+                Lists</a>
+            <a href="profile.html" class="list-group-item list-group-item-action fg-color-white bg-color-black">
+                Profile</a>
+            <a href="more.html" class="list-group-item list-group-item-action fg-color-white bg-color-black">
+                More</a>
+            <button class="btn btn-primary override-bs rounded-corners-all-around-100">
+                Tweet
+            </button>
         </div>
-    </div>
-
-
-</div>
-
-<div class = " border explore-size margin-right-left">
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "company-text"> Tech Crunch</p>
 
     </div>
+    <div class=" col-xxl-6">
+        <form id="search-form">
+            <div class="search" >
+                <input type="text" name="search" class="round" placeholder="Search Tuiter"/>
+                <div class = "pos-relative-right">
+                    <a href="explore-settings.html">
+                        <img  src= "https://img.icons8.com/fluency/344/gear.png"
+                              height= "30px" width="30px">
+                    </a>
+                </div>
+            </div>
 
-    <div class = "margin-right-left padded-top-left">
-        <p class = "post-text"> Coinbase Website Crashes After Superbowl</p>
-        <div class = "move-right">
-            <img class = "rounded-corners-all-around"
-                 src="https://media-exp1.licdn.com/dms/image/C560BAQHsPlWyC0Ksxg/company-logo_200_200/0/1620063222443?e=2159024400&v=beta&t=OgyA4B7O1XGHCfGbnbf1uIYZ6BEMo7864JRJqL6JUaY"
-                 height= "55px" width="55px"/>
+        </form>
+        <ul class="nav nav-tabs top-50">
+            <li class="nav-item">
+                <a class="nav-link active fg-color-gray" href="navigation.html">For You</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fg-color-blue" href="navigation.html">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fg-color-blue" href="navigation.html">News</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fg-color-blue" href="navigation.html">Sports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fg-color-blue" href="navigation.html">Entertainment</a>
+            </li>
+        </ul>
+
+        <ul class="list-group explore-size bg-color-black">
+            <li class="list-group-item">
+                <div class = "margin-right-left padded-top-left margin-right explore-size">
+                    Trending in Science </div>
+            </li>
+            <li class="list-group-item">Terminator</li>
+            <li class="list-group-item">Blade Runner</li>
+            <li class="list-group-item">Lord of the Ring</li>
+        </ul>
+<!--                    <div class = " border explore-size margin-right-left">-->
+<!--            <div class = "margin-right-left padded-top-left trending-text margin-right">-->
+<!--                Trending in Science-->
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "post-text"> Starship </p>-->
+
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left trending-text padded-top-left">-->
+<!--                <p> 55.5K Tweets </p>-->
+
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class = " border explore-size margin-right-left">-->
+<!--            <div class = "margin-right-left padded-top-left trending-text margin-right">-->
+<!--                Trending in Sports-->
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "post-text"> LA Rams Win the Superbowl</p>-->
+
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left trending-text padded-top-left">-->
+<!--                <p> 1.5M Tweets </p>-->
+
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class = " border explore-size margin-right-left">-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "company-text"> The New York Times</p>-->
+
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "post-text"> Winter Olympics 2022 Highlight</p>-->
+<!--                <div class = "move-right">-->
+<!--                    <img class = "rounded-corners-all-around"-->
+<!--                         src="https://news.cgtn.com/news/2022-01-15/Beijing-in-final-preparations-for-the-Winter-Olympics-16PLSjBNNII/img/ca2b2e1392384174a68cb5efe4744043/ca2b2e1392384174a68cb5efe4744043.jpeg"-->
+<!--                         height= "55px" width="55px"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--        </div>-->
+
+<!--        <div class = " border explore-size margin-right-left">-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "company-text"> Tech Crunch</p>-->
+
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "post-text"> Coinbase Website Crashes After Superbowl</p>-->
+<!--                <div class = "move-right">-->
+<!--                    <img class = "rounded-corners-all-around"-->
+<!--                         src="https://media-exp1.licdn.com/dms/image/C560BAQHsPlWyC0Ksxg/company-logo_200_200/0/1620063222443?e=2159024400&v=beta&t=OgyA4B7O1XGHCfGbnbf1uIYZ6BEMo7864JRJqL6JUaY"-->
+<!--                         height= "55px" width="55px"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--        </div>-->
+
+<!--        <div class = " border explore-size margin-right-left">-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "trending-text"> COVID-19 - Live</p>-->
+
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "post-text"> COVID-19: News and Updates for Massachusetts</p>-->
+<!--                <div class = "move-right">-->
+<!--                    <img class = "rounded-corners-all-around"-->
+<!--                         src="https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2020/02/26/213416_1342892.jpg.1500x1000_q95_crop-smart_upscale.jpg"-->
+<!--                         height= "55px" width="55px"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+<!--        </div>-->
+
+<!--        <div class = " border explore-size margin-right-left">-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "trending-text"> Bloomberg Opinion</p>-->
+
+<!--            </div>-->
+
+<!--            <div class = "margin-right-left padded-top-left">-->
+<!--                <p class = "post-text"> Rising Inflation Prices Cause Crash</p>-->
+<!--                <div class = "move-right">-->
+<!--                    <img class = "rounded-corners-all-around"-->
+<!--                         src="https://d1wa5qhtul915h.cloudfront.net/app/uploads/2021/08/Bike-Europe-Stock-Chart.jpg"-->
+<!--                         height= "55px" width="55px"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+<!--        </div>-->
+    </div>
+
+<!--    <div class=" col-xxl-3">-->
+<!--        <ul class = "list-group">-->
+<!--            <li class="list-group-item">Who to Follow</li>-->
+<!--            <li class="list-group-item">Java</li>-->
+<!--            <li class="list-group-item">Relatively Space</li>-->
+<!--        </ul>-->
+
+
+
+
+
+        <div class=" col-xxl-3">
+            <ul class = "list-group">
+                <li class="list-group-item">Who to Follow</li>
+                <li class="list-group-item">Java</li>
+                <li class="list-group-item">Relatively Space</li>
+            </ul>
+
+
+
         </div>
-    </div>
-
-
 </div>
-
-<div class = " border explore-size margin-right-left">
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "trending-text"> COVID-19 - Live</p>
-
-    </div>
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "post-text"> COVID-19: News and Updates for Massachusetts</p>
-        <div class = "move-right">
-            <img class = "rounded-corners-all-around"
-                 src="https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2020/02/26/213416_1342892.jpg.1500x1000_q95_crop-smart_upscale.jpg"
-                 height= "55px" width="55px"/>
-        </div>
-    </div>
-
-
-
-</div>
-
-<div class = " border explore-size margin-right-left">
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "trending-text"> Bloomberg Opinion</p>
-
-    </div>
-
-    <div class = "margin-right-left padded-top-left">
-        <p class = "post-text"> Rising Inflation Prices Cause Crash</p>
-        <div class = "move-right">
-            <img class = "rounded-corners-all-around"
-                 src="https://d1wa5qhtul915h.cloudfront.net/app/uploads/2021/08/Bike-Europe-Stock-Chart.jpg"
-                 height= "55px" width="55px"/>
-        </div>
-    </div>
-
-
-
-</div>
-
 
 </body>
