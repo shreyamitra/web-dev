@@ -1,0 +1,164 @@
+.bg-color-black
+{ background-color: black; }
+.bg-color-dark-gray
+{ background-color: darkgray; }
+
+.rounded-corners-all-around {
+    border-radius: 50px;
+}
+.fg-color-white { color: white; }
+
+.fg-color-blue {
+    color: rgb(29, 161, 242)
+}
+
+.fg-color-gray {
+    color: rgb(110, 118, 125)
+}
+
+.fg-font {
+    font-family: "Arial Black", serif;
+}
+
+.link-font {
+    font-size: 15px;
+}
+
+
+
+.trending-text {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(47,51,54);
+
+}
+
+.padded-top-left {
+
+    padding-left: 10px;
+}
+
+.padded-right {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.move-right {
+
+    position: relative;
+    left: 720px;
+    bottom: 65px;
+
+}
+
+.rounded-corners-all-around {
+    border-radius: 10px;
+}
+
+
+
+.post-text {
+    font-size: 15px;
+    color: white;
+}
+
+.company-text {
+    font-size: 13px;
+    color:white;
+}
+
+.explore-size {
+    width: 800px;
+    height: 80px;
+}
+
+.margin-right {
+    margin-right: 50px;
+}
+
+.margin-top {
+    margin-top: 10px;
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
+}
+
+
+.bottom-line {
+    color: rgb(29, 161, 242);
+    position: absolute;
+    length: 10;
+    width: 100% ;
+    bottom: 0;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+.border-solid { border-style: solid; }
+
+.border-thin { border-width: 4px; }
+
+.padding-fat {
+    padding: 50px;
+}
+
+.padding-fat-16 {
+    padding: 16px;
+}
+
+.width-15-pc {
+    width: 15%;
+}
+
+
+
+.float-left {
+    float: left;
+}
+
+
+.grid-col-left-sidebar {
+    width: 20%;
+    float: left;
+}
+
+.grid-row {
+    clear: both;
+}
+
+
+.pos-relative-right {
+    position: relative;
+    right: -612px;
+}
+
+.pos-float-right {
+    float: right;
+}
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: darkgray;
+    color: white;
+}
+
+
+.search {
+    position: relative;
+    width: 600px;
+    height: 50px;
+    color: white
+}
