@@ -6,7 +6,28 @@
 .rounded-corners-all-around {
     border-radius: 50px;
 }
+
+.rounded-corners-all-around-100 {
+    border-radius: 100px;
+}
 .fg-color-white { color: white; }
+
+.button-left {
+    position: relative;
+    left: 80%;
+    bottom: 50px;
+}
+
+.twt-button-override {
+    border-width: 10px;
+    height:50px;
+    width:100px;
+
+    border-radius: 100px;
+    /*font-size: 2em;*/
+    /*font-weight: bolder;*/
+}
+
 
 .fg-color-blue {
     color: rgb(29, 161, 242)
@@ -16,12 +37,29 @@
     color: rgb(110, 118, 125)
 }
 
+.bg-color-light-gray {
+    color: rgb(211, 211, 211)
+}
+
+
 .fg-font {
     font-family: "Arial Black", serif;
 }
 
 .link-font {
     font-size: 15px;
+}
+
+
+
+.middle-font {
+    font-size: 16px;
+    font-weight: bold;
+    font-color: black;
+}
+
+.top-font {
+    font-size: 12px;
 }
 
 
@@ -73,8 +111,8 @@
 }
 
 .explore-size {
-    width: 800px;
-    height: 80px;
+    width: 710px;
+    height: 50px;
 }
 
 .margin-right {
@@ -117,10 +155,61 @@ a:link {
     width: 15%;
 }
 
+.move-down {
+    position: relative;
+    bottom: 35px;
+}
 
+.bold-it {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.picture-font {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+}
+
+.move-up {
+    position: relative;
+    bottom: 65px;
+}
+
+.move-img-up {
+    position: relative;
+    bottom: 160px;
+    left: 90%;
+    /*align: right;*/
+}
+
+.move-img-up1 {
+    position: relative;
+    bottom: 170px;
+    left: 90%;
+    /*align: right;*/
+}
+
+.move-img-up2 {
+    position: relative;
+    bottom: 150px;
+    left: 90%;
+    /*align: right;*/
+}
 
 .float-left {
     float: left;
+}
+
+.description-font {
+    font-weight: bold;
+    font-size: 12px;
+    color: black;
 }
 
 
