@@ -1,5 +1,5 @@
 import NavigationSidebar from "../NavigationSidebar/";
-import ExploreComponent from "./ExploreComponent.js";
+import Explorecomponent from "./explorecomponent.js";
 import WhoToFollowList from "../WhoToFollowList/";
 
 (function ($) {
@@ -13,7 +13,7 @@ import WhoToFollowList from "../WhoToFollowList/";
         </div>
 <!--           <div class=" col-xxl-6 col-xl-6 col-lg-8 col-md-8 col-sm-10">-->
 <div class="col-10 col-lg-7 col-xl-6 col-xxl-6 col-md-10 col-sm-10 col-xs-10">
-           ${ExploreComponent()}
+           ${Explorecomponent()}
            
         </div>
 <!--        <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">-->
@@ -28,7 +28,7 @@ import WhoToFollowList from "../WhoToFollowList/";
 
 
 // import NavigationSidebar from "../NavigationSidebar/";
-// // import ExploreComponent from "./ExploreComponent.js";
+// // import Explorecomponent from "./Explorecomponent.js";
 // import WhoToFollowList from "../WhoToFollowList.js";
 //
 // (function ($) {
@@ -57,7 +57,7 @@ import WhoToFollowList from "../WhoToFollowList/";
 
 
 // </div>
-// ${ExploreComponent()}
+// ${Explorecomponent()}
 // <div class="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
 //     ${WhoToFollowList()}
 // </div>
