@@ -1,5 +1,8 @@
 //alert('Hello World!');
 
+import todos from "../todos/todos";
+import TodoItem from "../todos/TodoItem";
+
 console.log('Hello World!');
 
 console.log('Variables and Constants')
@@ -282,7 +285,45 @@ const init = () => {
 }
 $(init);
 
+// const ewq =
+//     ['qu','wf','eh','iu','tb'];
+//
+//
+//
+// const take = () => {
+//     const ewq =
+//         ['qu','wf','eh','iu','tb'];
+//     return(`
+//         <ul>
+//     {
+//         ewq.map(rew => {
+//                 return <li>{rew}</li>
+//             }
+//         )
+//     }
+// </ul>
+//     `);
+// }
+//
+// console.log(take)
 
+let gu = {
+    si: 'da',
+    cf: 'qe'
+}
+let uj = {
+    cf: 'do',
+    co: 'db',
+    ...gu,
+}
+gu = {
+    ...uj,
+    cf: 'wh',
+    co: 'nd'
+}
+console.log(gu.si)
+console.log(uj.cf)
+console.log(gu.co)
 
 
 
