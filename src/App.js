@@ -13,25 +13,25 @@ import React from "react";
 
 
 function App() {
-  return (
-  <BrowserRouter>
+return (
+   <BrowserRouter>
      <div className="container">
        <Routes>
-       <Route path="/"
-                       />
-         <Route path="/hello"
-                exact={true}
-                element={<HelloWorld/>}/>
-         <Route path="/labs"
-                exact={true}
-                element={<Labs/>}/>
-         <Route path="/tuiter"
-                exact={true}
-                element={<Tuiter/>}/>
+         <Route path="/">
+           <Route path="labs"
+                  element={<Labs/>}/>
+           <Route path="hello"
+                  element={<HelloWorld/>}/>
+            <Route path="tuiter" element={<Tuiter />}>
+
+
+           </Route>
+         </Route>
        </Routes>
      </div>
    </BrowserRouter>
  );
 }
+
 export default App;
 
