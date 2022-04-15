@@ -1,3 +1,5 @@
+import React from "react";
+
 const TodoItem = ({
                    todo = {
                        done: true,
@@ -14,8 +16,10 @@ const TodoItem = ({
         ({todo.status})
 
 </li>
+
+
+
     );
 }
 export default TodoItem;
-
 

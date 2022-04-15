@@ -1,7 +1,8 @@
+import React from "react";
+import TodoItem from "./TodoItem.js";
+import todos from "./todos.js";
 
 
-import TodoItem from "./TodoItem.json";
-import todos from "./todos.json";
 const TodoList = () => {
     return(
         <ul>
