@@ -5,11 +5,13 @@ import Styles from "./Styles/index.js";
 //import HelloWorld from "./todo";
 import ToDoList from "./todo/TodoList.js";
 import ConditionalOutput from "../conditionaloutput/index.js";
+import ReduxExamples from "./redux-examples";
 
 const Labs = () => {
     return(
       <>
           <h1>Labs</h1>
+          <ReduxExamples/>
              <ConditionalOutput/>
              <ToDoList/>
              <Classes/>
