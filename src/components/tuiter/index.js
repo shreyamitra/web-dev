@@ -6,10 +6,22 @@ import WhoToFollowList from "./WhoToFollowList/ListItem.js";
 import PostSummaryItem from "./PostSummaryList/PostSummaryItem.js";
 import PostSummaryList from "./PostSummaryList/index.js";
 import Explorecomponent from "./ExploreScreen/explorecomponent.js";
+import whoReducer from "./reducers/who-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
+import {combineReducers, createStore} from "redux";
+// import {createStore} from "redux";
+import {Provider} from "react-redux";
+// const store = createStore(whoReducer);
+
+const reducer = combineReducers({
+    tuits: tuitsReducer, who: whoReducer
+});
+const store = createStore(reducer);
 
 
 const Tuiter = () => {
   return (
+      <Provider store={store}>
   <div>
 
   <div className="row mt-2">
@@ -19,17 +31,11 @@ const Tuiter = () => {
 
     <div className="col-10 col-lg-7 col-xl-6">
       <Outlet/>
-
-      <Explorecomponent/>
+      {/*<Explorecomponent/>*/}
 
     </div>
     <div className="d-none d-lg-block col-lg-4 col-xl-4">
-      <h2>Who to follow</h2>
-      <WhoToFollowListItem who={{
-                      avatarIcon: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/vx4hxg2tnybefwmt4xxb',
-                      userName: 'Virgin Galactic',
-                      handle: 'virgingalactic',
-                  }}/>
+
      <WhoToFollowList/>
     </div>
   </div>
@@ -37,6 +43,7 @@ const Tuiter = () => {
 
 
     </div>
+      </Provider>
   );
 };
 export default Tuiter;
