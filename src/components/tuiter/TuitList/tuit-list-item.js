@@ -17,7 +17,7 @@ const TuitListItem = ({ tuit }) => {
                         <img
                             className="img img-responsive rounded-circle"
                             width="100%"
-                            src={tuit["avatar-image"]}
+                            src={"https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png"}
                             alt={tuit.postedBy.username}
                         />
                     </div>
@@ -35,7 +35,7 @@ const TuitListItem = ({ tuit }) => {
               </span>
                             <i
     onClick={() => deleteTuit(tuit)}
-    className="fas fa-remove fa-pull-right"
+    className="fa fa-times fa-pull-right"
     />
                         </div>
                         <div style={{ color: "black" }}>
